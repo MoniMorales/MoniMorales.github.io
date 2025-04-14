@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <!-- DEV ONLY, REMOVE IN PROD -->
+    <script async type="text/javascript" src="https://livejs.com/live.js"></script>
+    <!-- END OF DEV ONLY SECTION -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        window.onload = function () {
+            document.getElementById("footer_year").innerHTML = new Date(Date.now()).getFullYear();
+        };
+    </script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#my_latest_projects">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        <a href="#"><img src="img/linked_in.png" alt=""></a>
+    </nav>
+    <header>
+        <article>
+            <div id="title">
+                <div>
+                    <h1>Monica</h1>
+                    <h2>Morales</h1>
+                </div>
+            </div>
+            <p>🌟 Hey there! Welcome to my Design World for innovation!</p>
+            <p><strong>
+                    🌟🚀 Passionate Design Thinker | UX Designer
+                    | Collaborator with Cross-Functional Teams 🚀
+                </strong></p>
+            <p>
+                I’m a Colombian UX Designer based in Manchester, UK.
+                Doggo lover 🐶 and coffee lover ☕.️ My passion for design
+                drives me to proactively anticipate user needs and translate them into seamless, intuitive experiences.
+                Collaboration fuels my design journey, and I firmly believe that magic happens when cross-functional
+                teams
+                come together.
+            </p>
+        </article>
+        <img src="img/profile.png" alt="" id="profile-img">
+    </header>
+    <main>
+        <section id="badges">
+            <div class="badge">
+                <img src="img/master_icon.svg" alt="">
+                <h4>Master of Science</h4>
+                <p>innovation Management and Entrepreneurship</p>
+            </div>
+            <div class="badge">
+                <img src="img/community_icon.svg" alt="">
+                <h4>Part of</h4>
+                <p>wowtech community</p>
+            </div>
+            <div class="badge">
+                <img src="img/strategy_icon.svg" alt="">
+                <h4>Design-Led Strategy:</h4>
+                <p>Design thinking for business strategy and entrepreneurship</p>
+            </div>
+        </section>
+        <section id="my_latest_projects">
+            <h3>My Latest Projects</h2>
+                <div class="project">
+                    <img src="img/project_1.png" alt="">
+                    <div>
+                        <div class="project-title">
+                            <h3>Redesign of Engineering Blog</h3>
+                        </div>
+                        <em>BrightHr</em>
+                        <em>2024</em>
+                        <a href="#" class="project-btn">
+                            <span>View Project</span>
+                            <img src="img/arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/project_1.png" alt="">
+                    <div>
+                        <div class="project-title">
+                            <h3>Redesign of Engineering Blog</h3>
+                        </div>
+                        <em>BrightHr</em>
+                        <em>2024</em>
+                        <a href="#" class="project-btn">
+                            <span>View Project</span>
+                            <img src="img/arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/project_1.png" alt="">
+                    <div>
+                        <div class="project-title">
+                            <h3>Redesign of Engineering Blog</h3>
+                        </div>
+                        <em>BrightHr</em>
+                        <em>2024</em>
+                        <a href="#" class="project-btn">
+                            <span>View Project</span>
+                            <img src="img/arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Feel free to contact me any time</h3>
+        <div id="footer_contact">
+            <img src="img/mail_red.svg" alt="">
+            <span>XXXXXX@XXXXX.com</span>
+            <img src="img/linkedin_red.svg" alt="">
+            <span>Monica Morales Mesa</span>
+        </div>
+        <small>© <span id="footer_year"></span> | All Rights Reserved</small>
+    </footer>
+</body>
+
+</html>
