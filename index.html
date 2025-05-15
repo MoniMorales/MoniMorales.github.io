@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Dev Only -->
+    <script src="https://livejs.com/live.js"></script>
+
     <script>
         window.onload = function () {
             document.getElementById("footer_year").innerHTML = new Date(Date.now()).getFullYear();
@@ -25,7 +28,7 @@
 
 <body>
     <nav>
-        <ul>
+        <ul id="nav_links">
             <li><a href="#">Home</a></li>
             <li><a href="#my_latest_projects">Projects</a></li>
             <li><a href="#">Contact Me</a></li>
@@ -54,7 +57,7 @@
                 come together.
             </p>
         </article>
-        <img src="img/profile.png" alt="" id="profile-img">
+        <img src="img/profile.jpg" alt="" id="profile-img">
     </header>
     <main>
         <section id="badges">
